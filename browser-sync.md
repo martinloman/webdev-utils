@@ -12,10 +12,12 @@ Installation görs genom att köra följande kommando i kommandotolken (Command 
 npm install -g browser-sync
 ```
 
-## Starta med
+## Starta browser-sync
+
+För att starta en webbserver sin automatisk uppdateras så kör du följande kommando i kommandotolken. **_I den katalog dina filer ligger._**
 
 ```
 browser-sync start -s -f . --no-notify
 ```
 
-När du kör
+När du kör kommandot så kommer din standardwebbläsare öppnas. Adressen kommer vara något i stil med http://localhost:3000, där visas din sida.
